@@ -1,0 +1,5 @@
+Model,Predictors,R²,Adj. R²,AIC,BIC,RMSE (€),DW,ΔR² vs M1
+M1,"Ad_Spend, Is_Weekend, Is_Drop",0.924,0.921,955.6,965.1,434.70,1.204,–
+M2,M1 + Visual_Score,0.945,0.942,932.2,944.0,369.29,2.306,+0.021
+M3,M1 + Visual_Lag1,0.984,0.983,838.0,849.7,201.83,2.182,+0.060
+M4,"Adstock, Is_Weekend, Is_Drop, Visual_Lag1",0.978,0.977,860.9,872.7,233.79,2.011,+0.054

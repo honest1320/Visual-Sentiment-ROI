@@ -1,0 +1,6 @@
+,Daily_Revenue,Ad_Spend,Visual_Score,Is_Weekend,Is_Drop
+Daily_Revenue,1,0.906***,0.222*,0.453***,0.929***
+Ad_Spend,< 0.001,1,0.091,0.620***,0.849***
+Visual_Score,0.050,0.423,1,0.041,0.076
+Is_Weekend,< 0.001,< 0.001,0.722,1,0.235*
+Is_Drop,< 0.001,< 0.001,0.508,0.037,1

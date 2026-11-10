@@ -1,0 +1,11 @@
+# Analysis environment (Stages 2-5 of Thesis.ipynb).
+# Verified to reproduce every number in the thesis ("57 of 57 numbers match the thesis") with Python 3.13.
+numpy==2.5.3
+pandas==3.0.5
+scipy==1.18.1
+statsmodels==0.15.0
+matplotlib==3.11.2
+pillow==12.3.0
+opencv-python==5.0.0.93   # only for the brand-image panel (needs the media archive)
+psutil                    # optional: reports RAM in results/runtime.json
+ipykernel                 # to run the notebook in Jupyter or VS Code
